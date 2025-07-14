@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Searchemp = () => {
+const Deleteemp = () => {
     return (
         <div>
 
@@ -14,7 +14,7 @@ const Searchemp = () => {
                                 <label htmlFor="Emp Name" className="form-label">Employee Name</label>
                             </div>
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <button className="btn btn-success">Search</button>
+                                <button className="btn btn-danger">Delete</button>
                             </div>
                         </div>
                     </div>
@@ -25,4 +25,4 @@ const Searchemp = () => {
     )
 }
 
-export default Searchemp
+export default Deleteemp

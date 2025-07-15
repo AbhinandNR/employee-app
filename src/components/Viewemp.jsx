@@ -12,7 +12,7 @@ const Viewemp = () => {
     )
 
     const fetchdatafrom = () => {
-        axios.get("https://dummyjson.com/quotes").then(
+        axios.get("https://dummy.restapiexample.com/api/v1/employees").then(
             (response) => {
                 setemployeeData(response.data)
             }

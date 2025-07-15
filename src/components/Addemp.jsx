@@ -1,10 +1,11 @@
 import React from 'react'
+import Empnav from './Empnav'
 
 const Addemp = () => {
   return (
     <div>
-
-        <div className="conatiner">
+<Empnav/>
+        <div className="container">
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
